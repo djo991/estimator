@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_task_tasks",
+  "info": {
+    "displayName": "Task",
+    "icon": "tasks"
+  },
+  "options": {},
+  "attributes": {
+    "TaskName": {
+      "type": "string",
+      "required": true
+    },
+    "TaskDescription": {
+      "type": "text"
+    },
+    "Estimate": {
+      "type": "decimal",
+      "required": true
+    },
+    "UserStory": {
+      "type": "richtext",
+      "required": true,
+      "minLength": 100
+    }
+  }
+}

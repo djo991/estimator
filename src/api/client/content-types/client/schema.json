@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients",
+  "info": {
+    "singularName": "client",
+    "pluralName": "clients",
+    "displayName": "Client"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ClientName": {
+      "type": "string",
+      "required": true
+    },
+    "estimates": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::estimate.estimate",
+      "mappedBy": "client"
+    }
+  }
+}

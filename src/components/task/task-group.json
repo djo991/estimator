@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_task_task_groups",
+  "info": {
+    "displayName": "TaskGroup",
+    "icon": "layer-group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Task": {
+      "type": "component",
+      "repeatable": true,
+      "component": "task.task"
+    },
+    "TaskGroupDescription": {
+      "type": "richtext"
+    },
+    "TaskGroupName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
