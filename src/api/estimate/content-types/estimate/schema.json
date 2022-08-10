@@ -29,6 +29,9 @@
     },
     "EstimateName": {
       "type": "string"
+    },
+    "hourlyrate": {
+      "type": "integer"
     }
   }
 }
